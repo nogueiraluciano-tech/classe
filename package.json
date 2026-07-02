@@ -1,0 +1,12 @@
+{
+  "name": "aula-poo-pessoa-aluno",
+  "version": "1.0.0",
+  "description": "Aula pratica de Introducao a Orientacao a Objetos - versao aluno",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro de Pessoas — Aula POO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Cadastro de Pessoas</h1>
+    <p class="subtitulo">Cada linha da lista é um objeto <code>Pessoa</code> vindo da API.</p>
+
+    <form id="form-pessoa">
+      <label>
+        Nome
+        <input type="text" id="nome" required />
+      </label>
+      <label>
+        Data de nascimento
+        <input type="date" id="dataNascimento" required />
+      </label>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-pessoas"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
